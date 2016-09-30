@@ -5,8 +5,10 @@ arr.push(32);
 // 2 - Remove the values 4 & 6 from arr using the splice method.
 arr.splice(1,2);
 // 3 - Use the sort method to order each array value from smallest to largest.
-
+arr.sort();
 /*
 4 - Use the map method to halve the value of each value in the array.
 Assign the result to a new array called newArr. Console.log the new array.
 */
+var newArray = arr.map(x/2);
+console.log(newArray);
